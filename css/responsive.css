@@ -1,0 +1,285 @@
+@media only screen and (min-width: 1920px){
+    .content{
+        width: 30% !important;
+    }
+    .image-right{
+        width: 33% !important;
+    }
+    .image-left{
+        width: 273px !important;
+        height: 273px !important;
+    }
+    .footer-head{
+        width: 70% !important;
+    }
+    .top-img{
+        top: 45%;
+        right: 37%;
+    }
+    .content-top{
+        padding: 4% 30% 15% 30% !important;
+    }
+    .image-right-blog{
+        width: 1000px !important;
+        height: 500px;
+        top: 48%;
+        left: 23%;
+    }
+    .content-blog{
+        padding: 13% 33% 0% 30%;
+    }
+    .top-content{
+        margin-top: 10.2% !important;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .count{
+        margin: 10% 20% 10% 20%;
+    }
+    .startup{
+        padding: 0% 39.5% !important;
+    }
+    .images{
+        padding: 20% 0%;
+    }
+    .founder-content > img{
+        width: 580px !important;
+    }
+    .founder-desc{
+        margin-top: 5.5% !important;
+    }
+    .left-main{
+        margin: 8% 10% 30% 11% !important;
+    }
+    .left-main > h1{
+        margin-bottom: 9%;
+    }
+    .left-main > h6{
+        width: 31% !important;
+    }
+    .left-main > span{
+        font-size: 16px !important;
+    }
+    .left-main > p{
+        font-size: 16px !important;
+    }
+    .btns-res{
+        margin-bottom: 6% !important;
+    }
+    .send{
+        margin-top: 0% !important;
+    }
+    .services-category{
+        padding: 4% 0% 2.5% 0% !important;
+    }
+    .services-category > h2{
+        top: 43% !important;
+        left: -1% !important;
+    }
+    .category-group > p{
+        margin-bottom: 18% !important;
+    }
+    .circle{
+        left: 16.8% !important;
+        top: 22% !important;
+    }
+    .card-body{
+        padding: 5% 16% 13% 16% !important; 
+    }
+    .co-founder{
+        margin: 9% 35% !important;
+    }
+    .right-img{
+        width: 550px !important;
+    }
+    .margin{
+        margin-top: 5% !important;
+    }
+    .work-content{
+        width: 23% !important;
+        bottom: 31% !important;
+        right: 28% !important;
+    }
+    .work-content > h1{
+        font-size: 48px;
+    }
+    .work-content > p{
+        font-size: 16px;
+        width: 90% !important;
+    }
+    .slide-content{
+        padding: 16% 14% !important;
+    }
+    .slide-content > h6{
+        font-size: 44px !important;
+        margin-bottom: 10% !important;  
+    }
+    .slide-content > p{
+        font-size: 24px !important;
+    }
+    .slide-content > span{
+        font-size: 22px !important;
+    }
+    .owl-dots{
+        bottom: 3% !important;
+        left: -32.4% !important;
+    }
+    .custom-nav-link{
+        font-size: 60px !important;
+    }
+    .nav-list > hr{
+        width: 1148px !important;
+    }
+    .end-ham{
+        margin-top: 3%;
+    }
+    .end-ham > p{
+        font-size: 18px !important;
+    }
+    .work-page{
+        margin: 8% 20% !important;
+    }
+    .product-content{
+        width: 55% !important;
+    }
+    .hamburger-menu{
+        top: 37px !important;
+        right: 160px !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .top-content{
+        margin-top: 7%;
+    }
+    .startup{
+        padding: 0% 36%;
+    }
+    .founder > h1{
+        width: 38%;
+        font-size: 48px;
+    }
+    .founder-content > img{
+        width: 530px;
+    }
+    .founder-desc{
+        margin-top: 5%;
+        width: 32%;
+        margin-left: 8%;
+    }
+    .founder-desc > p{
+        font-size: 24px;
+    }
+    .founder-name > p{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .left-main > h1{
+        font-size: 48px;
+    }
+    .left-main > h6{
+        width: 41%;
+        font-size: 24px;
+    }
+    .contact-part{
+        width: 44%;
+    }
+    .input-data{
+        margin-bottom: 10%;
+    }
+    .send{
+        padding: 24px 56px;
+        margin-top: 1%;
+    }
+    .end-number{
+        font-size: 18px;
+    }
+    .services-category > h2{
+        top: 41%;
+    }
+    .services-category > h2{
+        font-size: 48px;
+    }
+    .category-group > p{
+        font-size: 18px;
+        margin-bottom: 16%;
+    }
+    .circle{
+        left: 14.2%;
+        top: 16.1%;
+    }
+    .our-designs{
+        padding: 3% 8%;
+    }
+    .card-body > h5{
+        font-size: 24px;
+        margin-bottom: 9%;
+    }
+    .co-founder{
+        margin: 9% 30%;
+    }
+    .co-content > span{
+        font-size: 14px;
+    }
+    .top-main{
+        margin: 9% 11% 5% 11%;
+    }
+    .top-left > h1{
+        font-size: 72px;
+        margin-bottom: 2%;
+    }
+    .top-left > p{
+        font-size: 24px;
+    }
+    .get-color{
+        font-size: 18px;
+    }
+    .right-img{
+        width: 466px;
+    }
+    .services-category > a{
+        font-size: 18px;
+    }
+    .work-content{
+        bottom: 27%;
+    }
+    .work-content > p{
+        width: 75%;
+    }
+    .slide-content{
+        padding: 15% 10%;
+    }
+    .slide-content > h6{
+        font-size: 32px;
+    }
+    .slide-content > p{
+        font-size: 18px;
+    }
+    .slide-content > span{
+        font-size: 16px;
+    }
+    .custom-nav-item{
+        margin-left: 36%;
+    }
+    .custom-nav-link{
+        font-size: 48px;
+    }
+    .last-margin{
+        margin-bottom: 12%;
+    }
+    .nav-list > hr{
+        width: 848px;
+    }
+    .end-ham{
+        margin-top: 3%;
+    }
+    .end-ham > p{
+        font-size: 16px;
+    }
+    .work-page{
+        margin: 8% 16.5%;
+    }
+    .product-content{
+        width: 75%;
+    }
+}
