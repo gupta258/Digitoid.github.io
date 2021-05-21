@@ -143,6 +143,19 @@
         top: 37px !important;
         right: 160px !important;
     }
+    .service-indi-top{
+        margin: 10% 11% 6% 11% !important;
+    }
+    .service-indi-top > h6{
+        width: 36%;
+        margin-bottom: 5% !important;
+    }
+    .indi-about{
+        margin: 0% 11% 0% 8%!important;
+    }
+    .right-content > p{
+        width: 50% !important;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -275,5 +288,18 @@
     }
     .product-content{
         width: 75%;
+    }
+    .indi-about{
+        margin: 0% 11% 0% 7%;
+    }
+    .right-content{
+        margin-top: 5%;
+    }
+    .right-content > h6{
+        font-size: 48px;
+    }
+    .right-content > p{
+        font-size: 18px;
+        width: 80%;
     }
 }
