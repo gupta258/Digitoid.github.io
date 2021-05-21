@@ -153,9 +153,6 @@
     .indi-about{
         margin: 0% 11% 0% 8%!important;
     }
-    .right-content > p{
-        width: 50% !important;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -300,6 +297,5 @@
     }
     .right-content > p{
         font-size: 18px;
-        width: 80%;
     }
 }

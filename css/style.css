@@ -1238,5 +1238,6 @@ marquee{
 }
 
 .right-content > p{
+    width: 81%;
     color: #0f0e0e;
 }
