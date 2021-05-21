@@ -724,7 +724,7 @@ a{
 }
 
 .top-main{
-    margin: 4% 11% 3% 11%;
+    margin: 11%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -778,7 +778,10 @@ a{
 }
 
 .right-img{
-    width: 400px;
+    position: absolute;
+    width: 45%;
+    right: 0;
+    top: 3%;
 }
 
 marquee{
@@ -1142,7 +1145,7 @@ marquee{
 }
 
 .middle-img{
-    width: 89% !important;
+    width: 94% !important;
 }
 
 .product > h1{

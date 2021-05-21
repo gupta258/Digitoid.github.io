@@ -89,9 +89,6 @@
     .co-founder{
         margin: 9% 35% !important;
     }
-    .right-img{
-        width: 550px !important;
-    }
     .margin{
         margin-top: 5% !important;
     }
@@ -222,7 +219,7 @@
         font-size: 14px;
     }
     .top-main{
-        margin: 9% 11% 5% 11%;
+        margin: 13% 11% 13% 11%;
     }
     .top-left > h1{
         font-size: 72px;
@@ -233,9 +230,6 @@
     }
     .get-color{
         font-size: 18px;
-    }
-    .right-img{
-        width: 466px;
     }
     .services-category > a{
         font-size: 18px;
