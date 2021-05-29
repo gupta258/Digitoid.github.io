@@ -299,3 +299,430 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        margin: 1.4% 8%;
+    }
+    .mobile-contact{
+        display: none;
+    }
+    .top{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+        overflow: hidden;
+    }
+    .content{
+        width: 100%;
+        margin: 0% 5%;
+        padding: 10% 0%;
+    }
+    .question{
+        font-size: 33px;
+        line-height: 43px;
+        margin-bottom: 15%;
+    }
+    .image-right{
+        position: static;
+        top: 20%;
+        width: 100%;
+        right: 0%;
+    }
+    .middle{
+        padding: 15% 5%;
+        overflow: hidden;
+    }
+    .blog{
+        border-bottom: none;
+        padding-bottom: 14%;
+    }
+    .mobile-blog{
+        flex-direction: column;
+        text-align: left;
+    }
+    .desc{
+        margin-left: 0%;
+    }
+    .desc > p{
+        margin-top: 5%;
+    }
+    .description{
+        font-size: 24px;
+        width: 100%;
+    }
+    .blog1{
+        margin-bottom: 0%;
+    }
+    .content-footer{
+        padding: 11% 5% !important;
+        text-align: center;
+    }
+    .footer-head{
+        font-size: 36px;
+        margin-bottom: 16% !important;
+    }
+    .links{
+        margin-top: 20%;
+    }
+    .footer-color > hr{
+        display: none;
+    }
+    .content-footer1{
+        padding: 2% 5%;
+    }
+    .mobile-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .first > p{
+        font-size: 16px;
+    }
+    .first > h6{
+        font-size: 16px;
+    }
+    .second > p{
+        font-size: 16px;
+    }
+    .third > p{
+        font-size: 16px;
+    }
+    .top-btn{
+        display: none !important;
+    }
+    .top-img{
+        position: unset;
+        margin-top: 10%;
+        margin-bottom: 12%;
+    }
+    .hamburger-menu{
+        top: 15px;
+        right: 40px;
+    }
+    .nav-shadow{
+        display: none !important;
+    }
+    .custom-navbar{
+        width: 100%;
+        left: -100%;
+        transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+        justify-content: left;
+    }
+    .change{
+        left: 0;
+    }
+    .mobile-top{
+        display: block;
+    }
+    .nav-list{
+        bottom: 15%;
+    }
+    .custom-nav-item{
+        margin: 20px;
+        margin-left: 0% !important;
+    }
+    .mobile-nav-logo{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .custom-nav-logo{
+        font-size: 26px;
+        text-decoration: none;
+        color: #0f0e0e;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+    }
+    .nav-list > hr{
+        display: none;
+    }
+    .last-margin{
+        margin-bottom: 17%;
+    }
+    .end-ham{
+        flex-direction: column-reverse;
+    }
+    .end-ham > p{
+        font-size: 16px;
+        margin-top: 5%;
+    }
+    .social-icons{
+        margin-top: 0;
+    }
+    .top-content{
+        text-align: left;
+        margin: 5% 11%
+    }
+    .bg-nav{
+        display: none;
+    }
+    .top-content > h1{
+        font-size: 50px;
+    }
+    .top-content > p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .work-page{
+        margin: 11%;
+    }
+    .products{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .product{
+        margin-bottom: 20%;
+    }
+    .product > img{
+        width: 100%;
+    }
+    .product > p{
+        width: 95%;
+    }
+    .product-content{
+        display: none;
+    }
+    .numbers > h1{
+        font-size: 24px;
+    }
+    .numbers > p{
+        font-size: 18px;
+    }
+    .startup{
+        padding: 0% 10%;
+        text-align: left !important;
+    }
+    .startup > h1{
+        font-size: 36px;
+    }
+    .mobile-pad{
+        margin-top: 16%;
+    }
+    .founder > h1{
+        width: 100%;
+        font-size: 36px;
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+    .founder-content{
+        flex-direction: column;
+    }
+    .founder-content > img{
+        width: 100%;
+    }
+    .founder-desc{
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 11%;
+    }
+    .services-category{
+        margin: 8% 8% 6% 8%;
+        padding: 10% 12% 9% 12%;
+    }
+    .services-category > h2{
+        position: unset;
+        top: 6%;
+        transform: rotate(-360deg);
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .categories{
+        flex-direction: column;
+        text-align: left;
+    }
+    .circle{
+       display: none;
+    }
+    .category-group > a{
+        margin-bottom: 8%;
+    }
+    .our-designs{
+        padding: 12% 9% 5% 9%;
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 10%;
+    }
+    .co-founder{
+        margin: 15% 10%;
+    }
+    .co-founder > h5{
+        font-size: 24px;
+        margin-bottom: 12%;
+    }
+    .co-desc{
+        margin: 0% 12%;
+    }
+    .service-indi-top > h6{
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    .indi-about{
+        flex-direction: column;
+        margin: 15% 0% 0% 0%;
+    }
+    .left-image > img{
+        width: 100%;
+    }
+    .right-content{
+        margin-top: 0%;
+        margin: 0 10% 0 10%;
+    }
+    .right-content > h6{
+        font-size: 36px;
+        margin-bottom: 8%;
+    }
+    .right-content > p{
+        width: 100%;
+    }
+    .content-top{
+        padding: 12% 0% 6% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .date{
+        padding: 0% 11%;
+    }
+    .question{
+        margin-bottom: 10%;
+    }
+    .mobile-question{
+        padding: 0% 11%;
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    .image-right-blog{
+        position: unset;
+        width: 100%;   
+        height: 100%;
+    }
+    .content-blog{
+        padding: 16% 12% 0% 12%;
+    }
+    .content-blog > p{
+        margin-bottom: 8%;
+    }
+    .content-blog > h2{
+        margin-bottom: 8%;
+    }
+    .middle1{
+        padding: 8% 11% 8% 11%;
+    }
+    .left-main{
+        margin: 8% 10% 15% 10%;
+    }
+    .left-main > h1{
+        width: 100%;
+        font-size: 36px;
+    }
+    .left-main > h6{
+        width: 100%;
+    }
+    .contact-part{
+        position: unset;
+        width: 100%;
+        background-color: transparent;
+        padding: 0% 10%;
+    }
+    .contact-part > h6{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10%;
+    }
+    .btns{
+        margin-bottom: 4%;
+    }
+    .mobile-btn{
+        display: none !important;
+    }
+    .input-data{
+        margin-bottom: 12%;
+    }
+    .input-data input{
+        border-bottom: 1px solid #DBDBDD;
+        background-color: transparent;
+    }
+    .send{
+        font-size: 16px;
+        padding: 20px 45px;
+    }
+    .end-number{
+        margin: 16% 11%;
+    }
+    .top-left > h1{
+        font-size: 50px;
+        margin-bottom: 8%;
+    }
+    .top-left > p{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 18%;
+    }
+    .top-right{
+        display: none !important;
+    }
+    marquee{
+        font-size: 50px;
+    }
+    .services-category > a{
+        bottom: 2%;
+        right: 10%;
+    }
+    .work{
+        margin-top: 15%;
+        padding: 10% 0;
+    }
+    .image-main{
+        width: 100%;
+        height: 100%;
+    }
+    .first-img{
+        position: unset;
+    }
+    .second-img{
+        position: unset;
+    }
+    .third-img{
+        display: none;
+    }
+    .fourth-img{
+        display: none;
+    }
+    .fifth-img{
+        display: none;
+    }
+    .sixth-img{
+        display: none;
+    }
+    .work-content{
+        position: unset;
+        width: 80%;
+        margin: 0 11% 5% 11%;
+    }
+    .work-content > h1{
+        font-size: 30px;
+    }
+    .ceo-content{
+        padding-top: 15%;
+    }
+    .carousel-pos{
+        display: none;
+    }
+    .mobile-testimonial{
+        display: block;
+    }
+    .slide-content{
+        padding: 13% 0%;
+    }
+    .slide-content > h6{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 670px){
+    .nav-list{
+        bottom: 4% !important;
+    }
+}
