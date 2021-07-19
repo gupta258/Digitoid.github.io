@@ -153,6 +153,13 @@
     .indi-about{
         margin: 0% 11% 0% 8%!important;
     }
+    .why > h1 {
+        font-size: 48px !important;
+    }
+    .why > p{
+        margin-left: 34% !important;
+        margin-right: 34% !important;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -297,6 +304,10 @@
     }
     .right-content > p{
         font-size: 18px;
+    }
+    .why > p{
+        margin-left: 36%;
+        margin-right: 36%;
     }
 }
 
@@ -718,6 +729,17 @@
     }
     .slide-content > h6{
         font-size: 24px;
+    }
+    .why{
+        margin-bottom: 10%;
+    }
+    .why > h1 {
+        font-size: 30px;
+    }
+    .why > p{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
     }
 }
 

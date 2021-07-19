@@ -614,11 +614,80 @@ a{
 }
 
 .services-category{
-    background-color: #06070C;
-    margin: 8% 5% 6% 5%;
-    color: #fff;
-    padding: 4% 0% 3% 0%;
+    margin: 8% 0% 6% 9%;
+}
+
+.main-service-head{
+    font-weight: 800;
+    font-size: 48px;
+    color: #06070C;
+    margin-bottom: 8%;
+}
+
+.main-service-para{
+    color: #0F0E0E;
+    width: 85%;
+    margin-bottom: 16%;
+}
+
+.explore{
+    background-color: #FB7462;
+    border-radius: 64px;
+    padding: 15px 33px 15px 33px;
+    text-align: center;
+    cursor: pointer;
     position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+}
+
+.explore-btn{
+    color: #0F0E0E;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.explore-btn:hover{
+    color: #fff;
+}
+
+.explore:hover{
+    color: #fff;
+    background-color: #0f0e0e;
+    transition: all 0.5s ease-in-out;
+}
+
+.service-cards{
+    border: 1px solid #06070C;
+    border-radius: 8px;
+    width: 95%;
+    padding: 20px 20px;
+    margin-top: 10%;
+}
+
+.service-head{
+    font-weight: 600;
+    font-size: 24px;
+    color: #06070C;
+    margin-bottom: 8%;
+}
+
+.service-para{
+    color: #0F0E0E;
+}
+
+.explore-btn-indi{
+    font-weight: 600;
+    font-size: 14px;
+    color: #FB7462;
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+.explore-btn-indi:hover{
+    color: #FB7462;
 }
 
 .services-category > h2{
@@ -893,7 +962,7 @@ marquee{
     position: relative;
 }
 
-.owl-carousel{
+.owl-last-carousel{
     position: absolute;
     width: 100%;
     bottom: -20%;
@@ -1223,4 +1292,27 @@ marquee{
 
 .mobile-testimonial{
     display: none;
+}
+
+.why{
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.why > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f0e0e;
+}
+
+.why > p{
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 2%;
+}
+
+.service-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
