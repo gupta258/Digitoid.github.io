@@ -664,7 +664,8 @@ a{
     border-radius: 8px;
     width: 95%;
     padding: 20px 20px;
-    margin-top: 10%;
+    margin-top: 8%;
+    height: 90%;
 }
 
 .service-head{
@@ -807,7 +808,7 @@ a{
     font-size: 20px;
     color: #06070C;
     width: 67%;
-    margin-bottom: 12%;
+    margin-bottom: 6%;
 }
 
 .get-color{
@@ -1295,19 +1296,24 @@ marquee{
 }
 
 .why{
-    text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 7%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.why > h1 {
+.why-left{
+    width: 43%;
+}
+
+.why-left > h1 {
     font-size: 48px;
     font-weight: 800;
     color: #0f0e0e;
 }
 
-.why > p{
-    margin-left: 28%;
-    margin-right: 28%;
+.why-left > p{
     margin-top: 2%;
 }
 
@@ -1315,4 +1321,38 @@ marquee{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.list{
+    margin-bottom: 3%;
+    color: #0f0e0e;
+}
+
+.list-bold{
+    color: #0f0e0e;
+    font-weight: 600;
+}
+
+.img-why{  
+    width: 65%;
+    padding-left: 40%;
+}
+
+.why-service{
+    margin-bottom: 7%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.why-service > h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f0e0e;
+}
+
+.why-service > p{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
