@@ -613,8 +613,15 @@ a{
     font-weight: 600;
 }
 
-.services-category{
+.services-category-index {
     margin: 8% 0% 6% 9%;
+}
+
+.services-category{
+    margin: 8% 9% 6% 9%;
+    position: relative;
+    background-color: #06070C;
+    padding: 4% 5% 3% 4%;
 }
 
 .main-service-head{
@@ -698,6 +705,7 @@ a{
     font-weight: 800;
     font-size: 36px;
     left: -2%;
+    color: #fff;
 }
 
 .categories{
@@ -709,10 +717,10 @@ a{
 .circle{
     position: absolute;
     background-color: #FB7462;
-    padding: 0.29%;
+    padding: 0.32%;
     border-radius: 50%;
-    left: 14.2%;
-    top: 17.3%;
+    left: 15%;
+    top: 18%;
 }
 
 .category-group{
@@ -1355,4 +1363,43 @@ marquee{
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.faq{
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 6%;
+    padding-top: 5%;
+    margin-bottom: 9%;
+    background-color: #FBFBFB;
+}
+
+.faq > h2{
+    font-weight: 700;
+    color: #090C12;
+    font-size: 40px;
+    margin-bottom: 8%;
+}
+
+.accordion-item {
+    margin-bottom: 3%;
+    border: none;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.04);
+}
+
+.accordion-header .accordion-button {
+    font-size: 20px;
+    color: #090C12;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.accordion-body {
+    font-size: 14px;
+    color: #090C12;
+    text-align: left !important;
 }
